@@ -76,3 +76,15 @@ environment:
       - make
       - patch
       - gnutar
+      - texinfo
+      - vim
+      - py3-markupsafe
+      - py3-jinja2
+      - udev # missing??? or in systemd?
+      - systemd
+      - man-db
+      - procps # AKA: procps-ng
+      - util-linux
+      - e2fsprogs # Looks like this package stripped and don't provide fsck
+      - sysklogd # missing??? or in systemd?
+      - sysvinit # missing??? or we should use systemd?
