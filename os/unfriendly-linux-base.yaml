@@ -1,0 +1,23 @@
+package:
+  name: unfriendly-linux-base
+  version: 0.0.1
+  epoch: 0
+  description: Base of Unfriendly linux
+  copyright:
+    - license: MIT
+
+environment:
+  contents:
+    packages:
+      - man-pages # Missing??? or man-db?
+      - iana-etc # missing???
+      - glibc
+      - zlib
+      - bzip2
+      - xz
+      - zstd
+      - file
+      - readline
+      - m4
+      - bc
+      - flex
