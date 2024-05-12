@@ -35,3 +35,10 @@ environment:
       - shadow
       - gcc
       - ncurses
+      - sed
+      - psmisc # missing?
+      - gettext
+      - bison
+      - grep
+      - bash
+      - libtool
