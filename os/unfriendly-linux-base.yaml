@@ -36,9 +36,14 @@ environment:
       - gcc
       - ncurses
       - sed
-      - psmisc # missing?
+      - psmisc # missing???
       - gettext
       - bison
       - grep
       - bash
       - libtool
+      - gdbm
+      - gperf
+      - expat
+      - inetutils # missing???
+      - less
