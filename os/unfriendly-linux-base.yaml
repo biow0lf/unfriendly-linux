@@ -67,3 +67,12 @@ environment:
       - diffutils
       - gawk
       - findutils
+      - groff
+      - grub # missing???
+      - gzip
+      - iproute2
+      - kbd # missing???
+      - libpipeline
+      - make
+      - patch
+      - gnutar
