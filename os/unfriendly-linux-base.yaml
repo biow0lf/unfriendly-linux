@@ -47,3 +47,8 @@ environment:
       - expat
       - inetutils # missing???
       - less
+      - perl
+      - perl-xml-parser
+      - intltool
+      - autoconf
+      - automake
