@@ -1,0 +1,93 @@
+package:
+  name: unfriendly-linux-base
+  version: 0.0.1
+  description: Base of Unfriendly linux
+  copyright:
+    - license: MIT
+
+environment:
+  contents:
+    packages:
+      - man-pages # Missing??? or man-db?
+      - iana-etc # missing???
+      - glibc
+      - zlib
+      - bzip2
+      - xz
+      - zstd
+      - file
+      - readline
+      - m4
+      - bc
+      - flex
+      - tcl
+      - expect # missing???
+      - dejagnu # missing???
+      - pkgconf
+      - binutils
+      - gmp
+      - mpfr
+      - mpc
+      - attr
+      - acl
+      - libcap
+      - libxcrypt
+      - shadow
+      - gcc
+      - ncurses
+      - sed
+      - psmisc # missing???
+      - gettext
+      - bison
+      - grep
+      - bash
+      - libtool
+      - gdbm
+      - gperf
+      - expat
+      - inetutils # missing???
+      - less
+      - perl
+      - perl-xml-parser
+      - intltool
+      - autoconf
+      - automake
+      - openssl
+      - kmod
+      - elfutils
+      - libffi
+      - python-3.12
+      - flit-core # missing???
+      - wheel # missing???
+      - setuptools # missing?
+      - ninja-build
+      - meson
+      - coreutils
+      - check
+      - diffutils
+      - gawk
+      - findutils
+      - groff
+      - grub # missing???
+      - gzip
+      - iproute2
+      - kbd # missing???
+      - libpipeline
+      - make
+      - patch
+      - gnutar
+      - texinfo
+      - vim
+      - py3-markupsafe
+      - py3-jinja2
+      - udev # missing??? or in systemd?
+      - systemd
+      - man-db
+      - procps # AKA: procps-ng
+      - util-linux
+      - e2fsprogs # Looks like this package stripped and don't provide fsck
+      - sysklogd # missing??? or in systemd?
+      - sysvinit # missing??? or we should use systemd?
+      - lfs-bootscripts # missing??? or we should use systemd units?
+      # - linux-headers # looks like we need linux-headers for compile everything
+      - kernel # missing!!!
