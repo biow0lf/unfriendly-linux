@@ -52,3 +52,5 @@ environment:
       - intltool
       - autoconf
       - automake
+      - openssl
+      - kmod
