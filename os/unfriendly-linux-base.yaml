@@ -1,7 +1,6 @@
 package:
   name: unfriendly-linux-base
   version: 0.0.1
-  epoch: 0
   description: Base of Unfriendly linux
   copyright:
     - license: MIT
@@ -21,3 +20,18 @@ environment:
       - m4
       - bc
       - flex
+      - tcl
+      - expect # missing???
+      - dejagnu # missing???
+      - pkgconf
+      - binutils
+      - gmp
+      - mpfr
+      - mpc
+      - attr
+      - acl
+      - libcap
+      - libxcrypt
+      - shadow
+      - gcc
+      - ncurses
