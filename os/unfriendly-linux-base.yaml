@@ -88,3 +88,6 @@ environment:
       - e2fsprogs # Looks like this package stripped and don't provide fsck
       - sysklogd # missing??? or in systemd?
       - sysvinit # missing??? or we should use systemd?
+      - lfs-bootscripts # missing??? or we should use systemd units?
+      # - linux-headers # looks like we need linux-headers for compile everything
+      - kernel # missing!!!
