@@ -54,3 +54,16 @@ environment:
       - automake
       - openssl
       - kmod
+      - elfutils
+      - libffi
+      - python-3.12
+      - flit-core # missing???
+      - wheel # missing???
+      - setuptools # missing?
+      - ninja-build
+      - meson
+      - coreutils
+      - check
+      - diffutils
+      - gawk
+      - findutils
